@@ -5,6 +5,7 @@
     cp -r OpenVoice/* .
     rm -rf OpenVoice
     cd ..
+    rm OpenVoice/README.md
     cp -r OpenVoice/* . 
     rm -rf OpenVoice
     sudo apt install ffmpeg
